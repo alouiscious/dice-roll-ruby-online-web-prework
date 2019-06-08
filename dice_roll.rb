@@ -8,7 +8,7 @@ def roll(num = rand(1..6))
 end
 binding.pry
 
-roll
+num
 
 def roll_rand(num = range(1..6))
   num.rand
