@@ -6,13 +6,16 @@ def roll(num = rand(1..6))
   # code goes here
   num
 end
+binding.pry
 
 roll
 
 def roll_rand(num = range(1..6))
   num.rand
 end
+binding.pry
 
 def roll_array(num = Array.new(rand(1..6)))
   num(0)
 end
+binding.pry
