@@ -14,5 +14,5 @@ def roll_rand(num = range(1..6))
 end
 
 def roll_array(num = Array.new(rand(1..6)))
-  num
+  num(0)
 end
