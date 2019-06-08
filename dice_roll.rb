@@ -6,16 +6,12 @@ def roll(num = rand(1..6))
   num
 end
 
-puts roll
 
 def roll_rand(num = range(1..6))
   num.rand
 end
 
-puts roll_rand
 
 def roll_array(num = Array.new(rand(1..6)))
-  num(0)
+  num(rand(0..5))
 end
-
-puts roll_array
