@@ -12,3 +12,7 @@ roll
 def roll_rand(num = range(1..6))
   num.rand
 end
+
+def roll_array(num = Array.new(rand(1..6)))
+  num
+end
