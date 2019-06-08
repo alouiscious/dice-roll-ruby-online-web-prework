@@ -3,7 +3,7 @@
 
 def roll(num = rand(1..6))
   # code goes here
-  num
+  num.to_i
 end
 
 
