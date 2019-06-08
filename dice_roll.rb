@@ -16,5 +16,3 @@ roll
 def roll_rand(num = range(1..6))
   num.rand
 end
-
-
